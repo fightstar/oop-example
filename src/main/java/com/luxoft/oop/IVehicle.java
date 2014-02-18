@@ -5,9 +5,10 @@ package com.luxoft.oop;
  */
 public interface IVehicle {
 
-    public void setSpeed(int speed);
-    public void setCapacity(int capacity);
+
+    public void setColor(String speed);
     public void setNumber(int number);
+    public void setName(String name);
     public void drive();
 
 }
