@@ -6,7 +6,7 @@ package com.luxoft.oop;
 public interface IVehicle {
 
 
-    public void setColor(String speed);
+    public void setColor(String color);
     public void setNumber(int number);
     public void setName(String name);
     public void drive();
