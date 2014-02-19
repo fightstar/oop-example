@@ -5,7 +5,7 @@ import com.luxoft.oop.Car;
 /**
  * Created by Vlad on 17.02.14.
  */
-public class Truck extends Car {   // Это наследование
+public class Truck extends Car {   // Это  наследование
 
     private int capacity;
     private String color;
@@ -17,6 +17,9 @@ public class Truck extends Car {   // Это наследование
         this.color = color;
         this.number = number;
         this.name = name;
+    }
+
+    public Truck() {
     }
 
     public void setCapacity(int capacity)  {
