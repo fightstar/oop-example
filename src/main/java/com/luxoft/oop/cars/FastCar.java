@@ -3,7 +3,7 @@ package com.luxoft.oop.cars;
 import com.luxoft.oop.Car;
 
 public class FastCar extends Car {
-    private int acceleration;
+    private int acceleration;    //пример инкапсуляции
     private String color;
     private int number;
     private String name;
